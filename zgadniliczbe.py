@@ -6,7 +6,7 @@ while (True):
     a = int(input('zgadnij liczbe którą wymyśliłem: '))
     b = b + 1
     if a == liczba:
-        print ("\n\n\n\t\t\tdobrze!!! zgadłeś za " + str(b) +  " razem \n\n\n\n\n")
+        print ("\t\t\tdobrze!!! zgadłeś za " + str(b) +  " razem \n\n\n\n\n")
         break
     elif a > liczba:
         print("\nnie, liczba jest mniejsza\n")
