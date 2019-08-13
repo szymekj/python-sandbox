@@ -3,12 +3,12 @@ b = 0
 liczba = random.randint(1, 100)
 
 while (True):
-    a = int(input('zgadnij liczbe którą wymyśliłem: '))
+    a = int(input('guess the number from 1 to 100 that I\'m thinking of: '))
     b = b + 1
     if a == liczba:
-        print ("\t\t\tdobrze!!! zgadłeś za " + str(b) +  " razem \n\n\n\n\n")
+        print ("\n\n\n\t\t\tgood!!!! you guessed it after " + str(b) +  " tries \n\n\n")
         break
     elif a > liczba:
-        print("\nnie, liczba jest mniejsza\n")
+        print("\nno, the number is lower\n")
     else:
-        print("\nnie, liczba jest większa\n")
+        print("\nno, the number is higher\n")
